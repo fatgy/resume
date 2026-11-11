@@ -1,0 +1,6 @@
+[tools]
+node = "26.13.0"
+
+[tasks]
+export = "npx resume export resume.pdf"
+validate = "npx resume validate"
