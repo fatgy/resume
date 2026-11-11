@@ -147,3 +147,8 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+resume*.json
+resume.pdf
+!mise.toml
+

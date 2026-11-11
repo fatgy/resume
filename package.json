@@ -1,0 +1,41 @@
+{
+	"name": "resume",
+	"version": "2026.11.11.00",
+	"description": "Create resume from JSON Resume",
+	"homepage": "https://github.com/fatgy/resume#readme",
+	"bugs": {
+		"url": "https://github.com/fatgy/resume/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fatgy/resume.git"
+	},
+	"license": "MIT",
+	"author": "Shatmongkol Amaraveja",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"@jsonresume/schema": "1.7.1",
+		"core-js": "3.51.0",
+		"jsonresume-theme-even": "0.27.0",
+		"puppeteer": "25.16.0",
+		"resume-cli": "3.8.4"
+	},
+	"overrides": {
+		"puppeteer": "$puppeteer",
+		"core-js": "$core-js",
+		"braces": "3.0.3",
+		"linkify-it": "6.1.0",
+		"markdown-it": "15.0.3",
+		"micromatch": "4.0.8",
+		"pug": "3.0.4"
+	},
+	"allowScripts": {
+		"core-js@3.51.0": true,
+		"fsevents@2.3.3": true,
+		"puppeteer@25.16.0": true
+	}
+}
